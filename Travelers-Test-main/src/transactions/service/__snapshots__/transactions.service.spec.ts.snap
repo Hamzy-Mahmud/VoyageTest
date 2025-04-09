@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsService should create a transaction  1`] = `
+Object {
+  "amount": -3736699898,
+  "created_date": 2022-09-09T17:43:26.000Z,
+  "customer_id": 1,
+  "id": 1,
+}
+`;

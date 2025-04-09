@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomersService should find all costumers  1`] = `
+Array [
+  Object {
+    "created_date": 2022-09-11T07:20:19.328Z,
+    "id": 9,
+    "name": "test 4",
+    "telephone": 8977173447,
+  },
+  Object {
+    "created_date": 2022-09-11T07:20:19.328Z,
+    "id": 8,
+    "name": "test 3",
+    "telephone": 8977173007,
+  },
+]
+`;
+
+exports[`CustomersService should find one customer  1`] = `
+Object {
+  "created_date": 2022-09-11T07:20:19.328Z,
+  "id": 1,
+  "name": "test 1",
+  "telephone": 4958173447,
+}
+`;
+
+exports[`CustomersService should return the customer transactions  1`] = `
+Object {
+  "created_date": "2022-09-09T02:51:44.000Z",
+  "id": 1,
+  "name": "test 1",
+  "telephone": 3636699999,
+  "transactions": Array [
+    Object {
+      "amount": -3736699898,
+      "created_date": "2022-09-09T17:43:26.000Z",
+      "id": 13,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:47:29.000Z",
+      "id": 10,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:45:07.000Z",
+      "id": 9,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:42:45.000Z",
+      "id": 8,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 7,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 6,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 5,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 4,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 3,
+    },
+    Object {
+      "amount": 3736699898,
+      "created_date": "2022-09-09T16:38:55.000Z",
+      "id": 2,
+    },
+  ],
+}
+`;
